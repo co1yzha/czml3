@@ -18,6 +18,15 @@
 
 czml3 is a Python library to write CZML.
 
+    fun_addInterval branch -> Added 'interval' as a keyword for Color Property. It can also achieved through creating list.
+
+    main branch -> is still the cloned original czml3 branch
+
+Compile to a local package:
+    https://www.freecodecamp.org/news/build-your-first-python-package/
+
+
+
 What is CZML?
 =============
 

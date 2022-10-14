@@ -47,6 +47,7 @@ from czml3.types import (
     NearFarScalarValue,
     Sequence,
     UnitQuaternionValue,
+    TimeInterval
 )
 
 

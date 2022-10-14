@@ -167,7 +167,7 @@ class ImageMaterial(BaseCZMLObject):
 @attr.s(str=False, frozen=True, kw_only=True)
 class Color(BaseCZMLObject, Interpolatable, Deletable):
     """A color. The color can optionally vary over time."""
-
+    interval = attr.ib(default=None)
     rgba = attr.ib(default=None)
     rgbaf = attr.ib(default=None)
 
